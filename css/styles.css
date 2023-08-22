@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    /* font-family: 'Dosis', sans-serif; */
+    background-color: #EEF5FF;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    margin: 0px;
+}
+
+h6 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 2px 0px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+    height: 100vh;
+}
+
+.mainForm {
+    height: 70vh;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.sideImg {
+    background-image: url('http://codeskulptor-demos.commondatastorage.googleapis.com/GalaxyInvaders/back02.jpg');
+ background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: white;
+            height: 68vh;
+            margin: 3%;
+    }
+
+    #mainForm,
+    #mainForm2,
+    #mainForm3,
+    #mainForm4 {
+        position: relative;
+    }
+
+    .formText1,
+    .formText2,
+    .formText3,
+    .formText4 {
+        padding: 0% 12%;
+    }
+
+    .formBtn {
+        position: absolute;
+        float: right;
+        bottom: -45%;
+        right: 0%;
+    }
+
+    .formBtn2 {
+        position: absolute;
+        float: right;
+        bottom: -60px;
+        right: 0%;
+    }
+
+    .formBtn3 {
+        position: absolute;
+        float: right;
+        bottom: -60px;
+        right: 0%;
+    }
+
+    .formBtn4 {
+        position: absolute;
+        float: right;
+        bottom: -60px;
+        right: 0%;
+    }
+
+    .formBtn button {
+        background-color: #03295A !important;
+    }
+
+    .form-switch {
+        width: 50%;
+        padding-left: 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .radio-card {
+        border: 2px solid rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        width: 100%;
+        margin-right: 2rem;
+        margin-bottom: 10px;
+        padding: 10px;
+        transition: all 0.3s;
+    }
+
+    .radio-card:hover {
+        border: 2px solid #016787;
+        cursor: pointer;
+    }
+
+    .radio-card-check {
+        display: none;
+        position: absolute;
+        top: 1.5rem;
+        left: 1.5rem;
+    }
+
+    .radio-card-check i {
+        font-size: 1.6rem;
+        color: #016787;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .radio-card-icon img {
+        width: 80px;
+    }
+
+    .radio-card-label {
+        font-weight: 600;
+        font-size: 1.2rem;
+    }
+
+    .radio-card-label-description {
+        margin-top: 0.5rem;
+        color: rgba(0, 0, 0, 0.7);
+    }
+
+    .radio-card.selected {
+        border: 2px solid #016787;
+    }
+
+    .radio-card.selected .radio-card-check {
+        display: inline-flex;
+    }
+
+    .circleText {
+        height: 35px;
+        width: 35px;
+        background-color: #BEE1FF;
+        color: black;
+        font-size: 20px;
+        font-weight: 700;
+        border: none;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+    }
+
+    .circleText2,
+    .circleText3,
+    .circleText4 {
+        height: 35px;
+        width: 35px;
+        background-color: transparent;
+        color: #BEE1FF;
+        font-size: 20px;
+        font-weight: 700;
+        border: none;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        border: 1px solid #BEE1FF;
+    }
+
+    .formMainText,
+    .formMainText2,
+    .formMainText3,
+    .formMainText4 {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-bottom: 10%;
+    }
+
+    .formImageText {
+        padding-top: 15%;
+        padding-left: 5%;
+    }
+
+    .selectCards {
+        margin: 5% 0px;
+    }
+
+    .card1 {
+        width: 100%;
+        padding: 3%;
+        border: 1px solid black;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .endCard {
+        background-color: #EEF5FF;
+        color: black;
+        border: none;
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    @media screen and (max-width : 768px) {
+        .main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin: auto;
+            height: 100vh;
+        }
+
+        .mainForm {
+            height: 80vh;
+            background-color: #ffffff;
+            width: 100%;
+        }
+
+        .sideImg {
+            /* background-image: url(../images/pexels-photo-256198.webp); */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: white;
+            height: 78vh;
+            margin: 3%;
+        }
+    }
+
+    @media screen and (max-width: 425px) {
+        .mainForm {
+            height: 100%;
+            background-color: #ffffff;
+            width: 100%;
+        }
+
+        .sideImg {
+            /* background-image: url(../images/pexels-photo-256198.webp); */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: white;
+            height: 30vh;
+            margin: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .formImageText {
+            padding-top: 0%;
+            padding-left: 0%;
+        }
+
+        .formImageText {
+            padding-top: 0%;
+            padding-left: 0%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .circleAllText {
+            display: none;
+        }
+
+        .formMainText,
+        .formMainText2,
+        .formMainText3,
+        .formMainText4 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 0%;
+        }
+
+        .formText1,
+        .formText2,
+        .formText3,
+        .formText4 {
+            padding: 0% 8%;
+            margin-top: 5%;
+        }
+
+        .formBtn,
+        .formBtn2,
+        .formBtn3,
+        .formBtn4 {
+            position: fixed;
+            bottom: 0px;
+            left: 0px;
+            width: 100%;
+            background: black;
+            height: 10vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
